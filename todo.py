@@ -68,7 +68,7 @@ todo_list = []
 def main():
     load_list()
     while True:
-        choice = input('Please specify a command [list, add, mark, archive]: ')
+        choice = input("Please specify a command [list, add, mark, archive or 'x' to exit]: ")
 
         if choice == 'list':
             show_list()
@@ -83,6 +83,9 @@ def main():
             archive_tasks()
             print('All completed tasks got deleted.\n')
             save_list()
+        elif choice == 'x':
+            return
+
         else:
             print("I can't understand You\n")
 

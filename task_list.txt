@@ -1,5 +1,3 @@
-['[ ]', 'fagga']
-['[ ]', 'rhdgf']
-['[ ]', 'ioknl']
-['[ ]', 'gesdf']
-['[ ]', 'faws']
+['[ ]', 'Buy some milk']
+['[ ]', 'Learn Python']
+['[ ]', 'Learn Git']
